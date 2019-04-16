@@ -1,0 +1,177 @@
+h1 {
+  padding-top: 40px;
+  color: #191970;
+  font-family: "Bookman Old Style";
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 40px;
+  color: #191970;
+  font-family: "Bookman Old Style";
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 40px;
+  color: #191970;
+  font-family: "Bookman Old Style";
+  font-style: italic;
+  text-align: center;
+}
+
+.shadowtext {
+    text-shadow: 1px 1px 2px black, 0 0 1em #5757a0;
+   }
+
+a:link {
+  color: #00008B; 
+}
+
+a:visited {
+  color: #0000CD;
+}
+
+p {
+  font-family: "Bookman Old Style";
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+q {
+  font-family: Times, serif; 
+  font-style: italic; 
+  font-size: 13pt;
+  color: navy; 
+  quotes: "\00ab" "\00bb"; 
+  text-align: right;
+}
+
+cite {
+  font-family: Times, serif; 
+  font-style: italic; 
+  font-weight: 700;
+  font-size: 14pt;
+  line-height: 1.5;
+  margin: 20px;
+}
+
+#navbar ul {
+  display: none;
+  background-color: #7B68EE;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 30px;
+  background-color: #191970;
+  padding-left: 30px;
+  margin-left: 10px;
+  margin-top: -20px;
+  min-width: 540px;
+  position: fixed;
+  border: 5px solid #5757a0; 
+-webkit-transform: skewX(30deg);
+-moz-transform: skewX(30deg);
+-o-transform: skewX(30deg);
+-ms-transform: skewX(30deg);
+transform: skewX(30deg);
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+-webkit-transform: skewX(-30deg);
+-moz-transform: skewX(-30deg);
+-o-transform: skewX(-30deg);
+-ms-transform: skewX(-30deg);
+transform: skewX(-30deg);
+}
+#navbar li a {
+  display: inline-block;
+  padding: 6px;
+  width: 115px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li { float: none;}
+#navbar li:hover { background-color: #7B68EE; }
+#navbar ul li:hover { background-color: #191970; }
+
+#biblio {
+  margin-top: 30px;
+  margin-left: 100px; 
+  line-height: 2.5;
+  font-family: Century Gothic; 
+  font-style: italic;
+  font-weight: 800;
+}
+#biblio li {
+  list-style-type: none;
+}
+
+#biblios { 
+  margin-top: -620px;
+  margin-left: 610px; 
+  line-height: 2.5;
+  font-family: Century Gothic; 
+  font-style: italic;
+  font-weight: 800;  
+}
+#biblios li {
+  list-style-type: none;
+}
+
+.naklon_deg{
+	transform:skew(20deg);
+}	
+
+.sl_ctr{
+position:relative;
+width:450px;
+height:300px;
+overflow:hidden;
+}
+.sldr{
+position:relative;
+width:10000px;
+height:300px;
+}
+.sldr img{
+float:left;
+}
+.prv_b, .nxt_b{
+position:absolute;
+top:135px;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+}
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+.prv_b{
+left:10px;
+background:url(images/prv.jpg) no-repeat;
+}
+.nxt_b{
+right:10px;
+background:url(images/nxt.jpg) no-repeat;
+}
+
+
+
+
+
+   
